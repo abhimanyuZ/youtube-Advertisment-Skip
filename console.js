@@ -1,0 +1,1 @@
+function skipMyAd(){document.getElementsByClassName("ytp-ad-player-overlay-skip-or-preview")[0]&&(document.getElementsByTagName("video")[0].currentTime=document.getElementsByTagName("video")[0].duration,document.getElementsByClassName("ytp-ad-text ytp-ad-skip-button-text")[0].click())}setInterval(skipMyAd,1000);
